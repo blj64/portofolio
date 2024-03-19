@@ -1,10 +1,17 @@
-const Layout = () => {
-    return (
-            <h1 className="text-3xl font-bold underline">
-                Hello world!
-            </h1>   
-            
-        )
-}
+// Layout.js
 
-export default Layout
+import React from 'react';
+import Navbar from './Navbar.js';
+
+const Layout = ({ children }) => {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow">
+        {children}
+      </main>
+    </div>
+  );
+};
+
+export default Layout;
