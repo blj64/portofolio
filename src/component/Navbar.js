@@ -4,7 +4,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <header className="bg-gray-800 text-white py-4">
+    <header className="bg-black text-redEvangelion py-4">
       <div className="container mx-auto">
         {/* Your navbar content here */}
         <nav>

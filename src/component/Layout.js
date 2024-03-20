@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Navbar from './Navbar.js';
+import Footer from './Footer.js';
 
 const Layout = ({ children }) => {
   return (
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
       <main className="flex-grow">
         {children}
       </main>
+      <Footer />
     </div>
   );
 };

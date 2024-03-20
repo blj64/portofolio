@@ -1,4 +1,4 @@
-import ExamplePage from "./component/ExamplePage";
+import Home from "./pages/Home";
 import Layout from "./component/Layout";
 
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ExamplePage />
+        <Home />
       </header>
     </div>
   );
